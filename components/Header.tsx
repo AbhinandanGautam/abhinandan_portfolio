@@ -53,6 +53,12 @@ const Header = () => {
           fgColor="grey"
           bgColor="transparent"
         />
+
+        <SocialIcon
+          url="https://drive.google.com/file/d/13fPnPImgEwrPeHwXmgcApOtfz-VJzPZg/view?usp=share_link"
+          fgColor="grey"
+          bgColor="transparent"
+        />
       </motion.div>
 
       <Link href="#contact">
