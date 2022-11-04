@@ -36,18 +36,7 @@ const Header = () => {
           bgColor="transparent"
         />
 
-        <SocialIcon
-          url="https://www.instagram.com/abhinandan.gautam/"
-          fgColor="grey"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://www.facebook.com/abhinandan.gautam.3990"
-          fgColor="grey"
-          bgColor="transparent"
-        />
-
+        
         <SocialIcon
           url="https://www.youtube.com/channel/UCnaoAOGKgzeMIqbO8o15CLg"
           fgColor="grey"

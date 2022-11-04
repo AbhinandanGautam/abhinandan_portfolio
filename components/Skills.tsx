@@ -163,7 +163,7 @@ const Skills = () => {
       transition={{ duration: 1.2 }}
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl">
+      <h3 className="absolute top-24 uppercase text-gray-500 tracking-[20px] text-xl sm:text-2xl">
         Skills
       </h3>
 
@@ -171,7 +171,7 @@ const Skills = () => {
         Hover over a skill for current proficiency.
       </h3>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-5">
+      <div className="grid mt-[75px] grid-cols-3 sm:grid-cols-4 gap-5">
         {skills?.slice(0, skills.length / 2 + 1).map((skill) => (
           <div key={skill._id} className='group relative flex cursor-pointer'>
               <motion.img
@@ -191,7 +191,7 @@ const Skills = () => {
       
               <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-16 w-16 sm:h-20 sm:w-20 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-2xl font-bold text-black opacity-100'>{skill.progress}</p>
+                      <p className='text-2xl font-bold text-black opacity-100'>{skill.progress}{"%"}</p>
                   </div>
               </div>
           </div>

@@ -112,7 +112,7 @@ const WorkExperience = () => {
       transition={{ duration: 1.5 }}
       className="relative flex flex-col h-screen overflow-hidden md:flex-row text-left max-w-full px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl">
+      <h3 className="absolute top-24 uppercase text-gray-500 tracking-[20px] text-xl sm:text-2xl">
         Experience
       </h3>
 

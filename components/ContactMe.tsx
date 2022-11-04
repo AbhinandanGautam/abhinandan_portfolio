@@ -20,10 +20,10 @@ const ContactMe = (props: Props) => {
   
     return (
     <div className='h-screen flex relative flex-col text-center md:flex-row md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl'>Contact</h3>
+        <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-xl sm:text-2xl'>Contact</h3>
 
         <div className='flex flex-col space-y-10'>
-            <h4 className='text-xl sm:text-2xl font-semibold text-center'>
+            <h4 className='lext-lg sm:text-2xl font-semibold text-center'>
                 I have got just what you need.{" "}
                 <span className='underline decoration-[#F7AB0A]/50'>Lets Talk</span>
             </h4>
@@ -45,10 +45,10 @@ const ContactMe = (props: Props) => {
                 </div>
             </div>
 
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-[90%] sm:w-fit mx-auto'>
                 <div className='flex space-x-1 sm:space-x-2'>
-                    <input {...register("name")} placeholder='Name' className='contactInput' type="text" />
-                    <input {...register("email")} placeholder='Email' className='contactInput' type="email" />
+                    <input {...register("name")} placeholder='Name' className='contactInput w-36 overflow-auto' type="text" />
+                    <input {...register("email")} placeholder='Email' className='contactInput w-36 overflow-auto' type="email" />
                 </div>
 
                 <input {...register("subject")} placeholder='Subject' className='contactInput' type="text" />
