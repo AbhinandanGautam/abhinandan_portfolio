@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const projects = [
   {
@@ -154,6 +155,7 @@ const Projects = () => {
             key={project._id}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 sm:p-20 md:p-44 h-screen"
           >
+            <Link href={project.linkToBuild}>
             <motion.img
               initial={{
                 y: -300,
@@ -169,7 +171,7 @@ const Projects = () => {
               alt=""
               className="rounded-lg w-64 h-36 md:w-72 md:h-56 xl:w-[450px] xl:h-[350px]"
             />
-
+            </Link>
             <div className="space-y-3 sm:space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-lg sm:text-2xl lg:text-3xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
