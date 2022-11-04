@@ -149,7 +149,7 @@ const Projects = () => {
         Projects
       </h3>
 
-      <div className="realtive flex w-full overflow-y-hidden overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="realtive flex w-full overflow-y-hidden overflow-x-scroll scroll-smooth snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         {projects?.map((project, i) => (
           <div
             key={project._id}
