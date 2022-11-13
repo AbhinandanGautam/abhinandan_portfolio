@@ -22,7 +22,7 @@ const ContactMe = (props: Props) => {
     <div className='h-screen flex relative flex-col text-center md:flex-row md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-xl sm:text-2xl'>Contact</h3>
 
-        <div className='flex flex-col space-y-10'>
+        <div className='flex flex-col space-y-10' style={{"marginTop" : "90px"}}>
             <h4 className='lext-lg sm:text-2xl font-semibold text-center'>
                 I have got just what you need.{" "}
                 <span className='underline decoration-[#F7AB0A]/50'>Lets Talk</span>

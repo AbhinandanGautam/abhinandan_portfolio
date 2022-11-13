@@ -171,7 +171,7 @@ const Skills = () => {
         Hover over a skill for current proficiency.
       </h3>
 
-      <div className="grid mt-[75px] grid-cols-3 sm:grid-cols-4 gap-5">
+      <div className="grid mt-[75px] grid-cols-3 sm:grid-cols-4 gap-5" style={{"marginTop" : "90px"}}>
         {skills?.slice(0, skills.length / 2 + 1).map((skill) => (
           <div key={skill._id} className='group relative flex cursor-pointer'>
               <motion.img
