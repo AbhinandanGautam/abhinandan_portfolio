@@ -10,7 +10,7 @@ const projects = [
     _type: "project",
     _updatedAt: "2022-10-31T11:54:02Z",
     image: "https://cdn.sanity.io/images/2rl84igg/production/9f4c91a88182bdc6f94d31c5d060ec97cb93d3bf-1920x941.png?w=2000&fit=max&auto=format",
-    linkToBuild: "https://note-maker-app-abhinandan.herokuapp.com/",
+    linkToBuild: "https://note-maker-abhi.onrender.com/",
     summary:
       "Handy web application for making notes. Provide features to create, read, update and delete notes. Fully secured application with authentication by user login. User first have to login in order to reach home page. If user not exist then sign up form is also available. This is basically a flask project having backend in python (Flask), frontend in plain HTML with jinja templating and database used is SQLite.",
     technologies: [
@@ -54,7 +54,7 @@ const projects = [
     _type: "project",
     _updatedAt: "2022-10-31T12:01:42Z",
     image: "https://cdn.sanity.io/images/2rl84igg/production/8e466f0e4b4b4dd4607315f06114a958f350ae55-1901x793.png?w=2000&fit=max&auto=format",
-    linkToBuild: "https://fake-news-detection-abhinandan.herokuapp.com/",
+    linkToBuild: "https://fake-news-detection-on6w.onrender.com/",
     summary:
       "This is machine learning project. Here we created a machine learning model which can predict whether a news is fake or true using news title only. This is basically a group project. ML model is made using python and some libraries of ml. This model this then connected to web application using flask in backend and frontend is plain HTML with jinja templating.",
     technologies: [
