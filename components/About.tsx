@@ -31,7 +31,7 @@ const About = () => {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-lg sm:text-3xl md:text-4xl font-semibold'>
                 Here is a{" "}
-                <span className='underline decoration-[#F7AB0A]'>little</span>
+                <span className='underline decoration-[#66FCF1]'>little</span>
                 {" "}background
             </h4>
             <p className='text-xs sm:text-sm md:text-base'>

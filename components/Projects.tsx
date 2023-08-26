@@ -305,7 +305,7 @@ const Projects = () => {
         Projects
       </h3>
 
-      <div className="realtive flex w-full overflow-y-hidden overflow-x-scroll scroll-smooth snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="realtive flex w-full overflow-y-hidden overflow-x-scroll scroll-smooth snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#66FCF1]/80">
         {projects?.map((project, i) => (
           <div
             key={project._id}
@@ -330,7 +330,7 @@ const Projects = () => {
             </Link>
             <div className="space-y-3 sm:space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-lg sm:text-2xl lg:text-3xl font-semibold text-center">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#66FCF1]/50">
                   Project Details {i + 1} of {projects.length}:
                 </span>{" "}
                 {project?.title}
@@ -344,7 +344,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="absolute w-full h-[500px] bg-[#F7AB0A]/10 top-[30%] left-0 -skew-y-12" />
+      <div className="absolute w-full h-[500px] bg-[#66FCF1]/10 top-[30%] left-0 -skew-y-12" />
     </motion.div>
   );
 };

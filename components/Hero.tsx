@@ -21,7 +21,7 @@ const Hero = () => {
           {/* typer text */}
           <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
               <span className='mr-3'>{text}</span>
-              <Cursor cursorColor='yellow'/>
+              <Cursor cursorColor='skyblue'/>
           </h1>
 
           {/* different links */}
