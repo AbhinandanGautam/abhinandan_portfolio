@@ -43,12 +43,12 @@ const About = () => {
           Amazon India. I completed my B.Tech in Computer Science and
           Engineering from NIT Jalandhar with a CGPA of 8.73.
           <br></br>I love developing full-stack web applications and have built
-          several web-related projects. I’m also skilled in problem-solving and
+          several web-related projects. I am also skilled in problem-solving and
           data structures, with experience solving over 1800 problems on
           platforms like LeetCode and participating in numerous coding contests.
           <br></br>My internships include developing a full-stack placement
           website for my university and working on AWS services and backend
-          development with Amazon India's International Machine Learning team.
+          development with Amazon India International Machine Learning team.
           Additionally, I gained in-depth training in AI and machine learning at
           Accenture while working there for 3 months.
         </p>
