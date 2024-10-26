@@ -38,13 +38,13 @@ const Header = () => {
 
         
         <SocialIcon
-          url="https://www.youtube.com/channel/UCnaoAOGKgzeMIqbO8o15CLg"
+          url="https://drive.google.com/file/d/1jMe2L20leW4GgEKRHrSD23d1j-pVrti0/view?usp=sharing"
           fgColor="grey"
           bgColor="transparent"
         />
 
         <SocialIcon
-          url="https://drive.google.com/file/d/13fPnPImgEwrPeHwXmgcApOtfz-VJzPZg/view?usp=share_link"
+          url="https://leetcode.com/nangal_wala_2003/"
           fgColor="grey"
           bgColor="transparent"
         />

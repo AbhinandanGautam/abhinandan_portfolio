@@ -58,32 +58,30 @@ const projects = [
     _type: "project",
     _updatedAt: "2023-01-21T14:18:09Z",
     image:
-      "https://cdn.sanity.io/images/2rl84igg/production/55875dc1fd26fcaf55f9641aa1bd34d1f3c65ae2-1912x914.png?w=2000&fit=max&auto=format",
-    linkToBuild: "https://whatsapp2-six.vercel.app/",
+      "/emailgen.png",
+    linkToBuild: "https://email-generator-mseo.onrender.com",
     summary:
-      "It is simple WhatsApp clone which can be used for chatting using only Gmail account. This application also provide authentication using firebase authentication and all chat data is stored in firestore and is fetched from there to display on screen. While chatting feature of text-to-speech is provided and emoji box is also available.",
+      "An email generator web app built with Flask, HTML, and Tailwind CSS streamlines cold email creation for recruiters. Users submit a job post URL, which the app scrapes using LangChain, extracting key information via Llama-based AI. The processed data is used to automatically craft a tailored, professional email for recruiter outreach.",
     technologies: [
       {
-        _createdAt: "2022-10-31T08:49:32Z",
-        _id: "1cf9de06-8d40-488a-b2e1-2547638e3649",
-        _rev: "LLPpfIE1lV47ytP4JTrZ1W",
+        _createdAt: "2022-10-31T08:40:09Z",
+        _id: "3283e100-3812-4683-b9be-11d4e16b6d84",
+        _rev: "1F2rDWghP665irIyIkqSjq",
         _type: "skill",
-        _updatedAt: "2022-11-02T12:25:10Z",
-        image:
-          "https://cdn.sanity.io/images/2rl84igg/production/ae35edce19e64c53e5d455b22e8a2c82d093d4c9-1176x1056.png?w=2000&fit=max&auto=format",
-        progress: 70,
-        title: "Next JS",
+        _updatedAt: "2022-10-31T08:53:31Z",
+        image: "https://cdn.sanity.io/images/2rl84igg/production/54776bbe4c53cf67705e19722e5be7747c91a31d-508x512.png?w=2000&fit=max&auto=format",
+        progress: 80,
+        title: "Python",
       },
       {
-        _createdAt: "2022-10-31T08:43:53Z",
-        _id: "7d9b1687-490e-48b5-b6c3-b3864049a1b8",
-        _rev: "1F2rDWghP665irIyIkpaUS",
+        _createdAt: "2022-10-31T08:45:50Z",
+        _id: "5dcb19f2-d23d-44fd-a417-c097ec83817f",
+        _rev: "4QieMMYW16Qi2WzTeizUym",
         _type: "skill",
-        _updatedAt: "2022-10-31T08:52:22Z",
-        image:
-          "https://cdn.sanity.io/images/2rl84igg/production/0d21d36a6cf60922c8800dfecaedb0874eeabd20-512x456.png?w=2000&fit=max&auto=format",
+        _updatedAt: "2022-11-02T12:28:14Z",
+        image: "https://cdn.sanity.io/images/2rl84igg/production/11298a301d3372893fd29a0751ca6d60f8d19178-219x230.png?w=2000&fit=max&auto=format",
         progress: 80,
-        title: "React JS",
+        title: "Flask",
       },
       {
         _createdAt: "2022-11-04T15:20:14Z",
@@ -97,7 +95,7 @@ const projects = [
         title: "Tailwind CSS",
       },
     ],
-    title: "WhatsApp Clone",
+    title: "Email Generator",
   },
   {
     _createdAt: "2023-01-21T14:12:53Z",
